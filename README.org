@@ -1,5 +1,5 @@
 #+TITLE: Pelasgian Operating System Channel 
-#+SUBTITLE: A curated packaged distribution channel.
+#+SUBTITLE: A curated package distribution channel.
 #+AUTHOR: D.A.Pelasgus
 
 * 🧰｜Setup
