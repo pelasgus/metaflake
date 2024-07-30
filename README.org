@@ -1,0 +1,19 @@
+#+TITLE: Pelasgian Operating System Channel 
+#+SUBTITLE: A curated packaged distribution channel.
+#+AUTHOR: D.A.Pelasgus
+
+* 🧰｜Setup
+- For system wide access to the channnel, edit =/etc/channels.scm=.
+- For single user acces, edit =~/.config/guix/channels.scm=.
+💡｜N.B. : If the files do not exist at the specified direcotries create them.
+
+#+BEGIN_SRC scheme  
+;; PELASGIAN CHANNEL
+(cons* (channel
+        (name 'pelasgus)
+        (url "https://github.com/pelasgus/channel.git")
+        (branch "main"))
+       %default-channels)
+#+END_SRC
+
+
