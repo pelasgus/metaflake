@@ -1,5 +1,4 @@
 (channel
   (version 0)
   (name 'pelasgus)
-  (url "https://github.com/pelasgus/channel.git")
-  (directory "packages"))
+  (url "https://github.com/pelasgus/channel.git"))
